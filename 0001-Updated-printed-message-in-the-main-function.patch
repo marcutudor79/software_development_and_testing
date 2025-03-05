@@ -1,0 +1,24 @@
+From aa8bae64128bd42a6dc9a15534cc278ec47125d5 Mon Sep 17 00:00:00 2001
+From: Tudor Marculescu <tudor.marculescu@nxp.com>
+Date: Wed, 5 Mar 2025 17:44:58 +0200
+Subject: [PATCH] Updated printed message in the main function
+
+---
+ main.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/main.cpp b/main.cpp
+index 289007c..335fa92 100644
+--- a/main.cpp
++++ b/main.cpp
+@@ -2,6 +2,6 @@
+ 
+ int main()
+ {
+-	std::cout<<"hello world";
++	std::cout<<"hello new world"<<std:endl;
+ 	return 0;
+ }
+-- 
+2.43.0
+
