@@ -1,0 +1,12 @@
+diff --git a/main.cpp b/main.cpp
+index d0f2cf5..db9f626 100644
+--- a/main.cpp
++++ b/main.cpp
+@@ -2,6 +2,6 @@
+ 
+ int main()
+ {
+-	std::cout<<"hello alternate world";
++	std::cout<<"hello new alternate world"<<std:endl;
+ 	return 0;
+ }
